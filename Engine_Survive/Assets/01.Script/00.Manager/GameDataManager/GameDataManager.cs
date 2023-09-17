@@ -6,19 +6,18 @@ using DTG;
 public class GameDataManager : ManagerBase
 {
     Dictionary<DataFileDefine, Dictionary<DataFileTabDefine, Dictionary<long, Dictionary<uint, int>>>> m_dicDatas = new Dictionary<DataFileDefine, Dictionary<DataFileTabDefine, Dictionary<long, Dictionary<uint, int>>>>();
-    // File Έν , File Tab, FileID, FileFieldRow
 
     protected override void DestroyManager()
     {
-
+        throw new System.NotImplementedException();
     }
 
-    protected override void InitManager() 
+
+
+    protected override void InitManager()
     {
-
+        throw new System.NotImplementedException();
     }
 
-
-
-
+    // File Έν , File Tab, FileID, FileFieldRow
 }
