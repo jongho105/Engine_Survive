@@ -59,12 +59,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\01.Script\01.MainGame\MainGame.cs" />
     <Compile Include="Assets\01.Script\81.DataDefine\DataDefine\DataDefine.cs" />
     <Compile Include="Assets\01.Script\00.Manager\GameDataManager\GameDataManager.cs" />
+    <Compile Include="Assets\61.Tool\00.ButtonTool\ButtonTool.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\01.Script\00.Manager\ManagerBase\ManagerBase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="Assets\00.Scene\Splash.unity" />
+    <None Include="Assets\00.Scene\Splash.unity.meta" />
+    <None Include="Assets\01.Script\01.MainGame\MainGame.cs.meta" />
+    <None Include="Assets\61.Tool\00.ButtonTool.meta" />
     <None Include="Assets\81.GameData\HelloWorld01.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -786,8 +793,7 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
