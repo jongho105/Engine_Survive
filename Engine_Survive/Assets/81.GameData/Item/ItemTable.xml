@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ItemTable>
+	<ItemTableDatas>
+		<ItemTableData Id="Int" Name="String" ItemType="String" MaxCount="Int" Weight="Int" Durability="Int" DurabilityTime="Int" Icon="String"/>
+		<ItemTableData Id="1" Name="나무 토막" ItemType="Material" MaxCount="10" Weight="1.2" Durability="10" DurabilityTime="1" Icon="wood.png"/>
+		<ItemTableData Id="2" Name="소시지" ItemType="Food" MaxCount="30" Weight="1" Durability="10" DurabilityTime="3" Icon="Sausage.png"/>
+	</ItemTableDatas>
+</ItemTable>

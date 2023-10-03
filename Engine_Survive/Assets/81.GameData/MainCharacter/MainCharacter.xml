@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MainCharacterTable>
+	<MainCharacterTableDatas>
+		<MainCharacterTableData Id="Int" Name="String" Weight="Int"/>
+		<MainCharacterTableData Id="1" Name="여성1" Weight="80"/>
+		<MainCharacterTableData Id="2" Name="남성1" Weight="100"/>
+	</MainCharacterTableDatas>
+</MainCharacterTable>
