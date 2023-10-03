@@ -13,6 +13,22 @@ namespace DTG
     }
 }
 
+namespace T_CharacterJob
+{
+    public enum T_CharacterJob
+    {
+        Fighter, // 전사
+        Archer, // 궁수
+        Mage, // 마법사
+        Holyknight, // 성기사
+    }
+}
+
+
+
+
+
+
 
 
 
